@@ -21,7 +21,8 @@ setbtn.addEventListener("click",function(){
     if ((sec=="")) {
         sec=00;
     }
-    var audio = new Audio('http://cd.textfiles.com/atarilibrary/atari_cd06/SOUND/WAV/WOWO.WAV')
+    // var audio = new Audio('http://cd.textfiles.com/atarilibrary/atari_cd06/SOUND/WAV/WOWO.WAV')
+    var audio = new Audio('timer.mp3')
     let x = setInterval(() => {
             // alert(hour)
             if(sec>0){
